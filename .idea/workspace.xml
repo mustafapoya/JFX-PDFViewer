@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bba821b-7e66-4b41-a8b9-13bb739a4d88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProcessListenerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/golbarg/pdfviewer/PDFJSVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/golbarg/pdfviewer/PDFJSVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pdfjs_2.2.228/web/viewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pdfjs_2.2.228/web/viewer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pdfjs_2.6.347/web/viewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pdfjs_2.6.347/web/viewer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/mine/work/JFX-PDFViewer/src/main/resources/pdfjs_2.6.347"
+    "last_opened_file_path": "E:/mine/work/JFX-PDFViewer/src/main/resources/pdfjs_2.6.347",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,7 +81,10 @@
       <option name="presentableId" value="Default" />
       <updated>1676885136845</updated>
       <workItem from="1676885138263" duration="5475000" />
-      <workItem from="1677131338905" duration="5307000" />
+      <workItem from="1677131338905" duration="6652000" />
+      <workItem from="1677150991857" duration="1944000" />
+      <workItem from="1677152987753" duration="199000" />
+      <workItem from="1677153470786" duration="586000" />
     </task>
     <servers />
   </component>
