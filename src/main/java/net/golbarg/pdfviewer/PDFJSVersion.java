@@ -2,6 +2,7 @@ package net.golbarg.pdfviewer;
 
 public enum PDFJSVersion {
     VERSION_3_3_122("/pdfjs_3.3.122/web/viewer.html"),
+    VERSION_2_6_347("/pdfjs_2.6.347/web/viewer.html"),
     VERSION_2_2_228("/pdfjs_2.2.228/web/viewer.html");
 
     private final String path;
