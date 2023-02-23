@@ -16,6 +16,6 @@ public enum PDFJSVersion {
     }
 
     public static PDFJSVersion latestVersion() {
-        return VERSION_3_3_122;
+        return VERSION_2_2_228;
     }
 }

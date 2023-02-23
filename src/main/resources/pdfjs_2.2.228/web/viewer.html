@@ -39,35 +39,31 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     <script src="viewer.js"></script>
 
-<!-- By Dansoftware -->
+    <!-- Custom Script -->
     <script>
+        function goToPage(desiredPage) {
+            var numPages = PDFViewerApplication.pagesCount;
+            if ((desiredPage > numPages) || (desiredPage < 1)) {
+                return;
+            }
+            PDFViewerApplication.page = desiredPage;
+        }
 
-function goToPage(desiredPage){
-    var numPages = PDFViewerApplication.pagesCount;
-    if((desiredPage > numPages) || (desiredPage < 1)){
-        return;
-    }
-    PDFViewerApplication.page = desiredPage;
-}
+        var openFileFromBase64 = function (data) {
+            var arr = base64ToArrayBuffer(data);
+            PDFViewerApplication.open(arr);
+        }
 
-
- var openFileFromBase64 = function(data) {
-    var arr = base64ToArrayBuffer(data);
-    PDFViewerApplication.open(arr);
-}
-
-function base64ToArrayBuffer(base64) {
-  var binary_string = window.atob(base64);
-  var len = binary_string.length;
-  var bytes = new Uint8Array(new ArrayBuffer(len));
-  alert(len);
-  for (var i = 0; i < len; i++)        {
-      bytes[i] = binary_string.charCodeAt(i);
-  }
-  return bytes.buffer;
-}
-
-
+        function base64ToArrayBuffer(base64) {
+            var binary_string = window.atob(base64);
+            var len = binary_string.length;
+            var bytes = new Uint8Array(new ArrayBuffer(len));
+            alert(len);
+            for (var i = 0; i < len; i++) {
+                bytes[i] = binary_string.charCodeAt(i);
+            }
+            return bytes.buffer;
+        }
 
     </script>
 
