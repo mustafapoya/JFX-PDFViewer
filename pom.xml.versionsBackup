@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.golbarg.pdfviewer</groupId>
     <artifactId>JFX-PDFViewer</artifactId>
-    <version>2</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
